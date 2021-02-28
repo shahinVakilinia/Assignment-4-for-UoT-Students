@@ -1,2 +1,3 @@
-# Assignment-4-for-UoT-Students
-Running the ML Jobs on GCP
+# cases_deaths
+
+A deployable API exposing COVID-19 death predictions for countries

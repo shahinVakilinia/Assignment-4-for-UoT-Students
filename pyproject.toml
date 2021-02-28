@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "model_deaths"
+version = "0.1.0"
+description = ""
+authors = ["Phil Winder <phil@WinderResearch.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.4.0"
+uvicorn = "^0.11.3"
+symfit = "^0.5.2"
+pandas = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
